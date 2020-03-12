@@ -16,6 +16,8 @@ public interface TarjetaRepository {
 	
 	Tarjeta actualizarTarjeta(int index, Tarjeta tarjeta);
 	
+	void eliminarTodos();
+	
 	
 
 }

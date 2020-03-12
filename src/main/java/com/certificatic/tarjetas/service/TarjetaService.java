@@ -15,5 +15,7 @@ public interface TarjetaService {
 	void eliminarTarjeta(String numeroTarjeta);
 
 	Tarjeta actualizarTarjeta(int index, Tarjeta tarjeta);
+	
+	void eliminarTodos();
 
 }

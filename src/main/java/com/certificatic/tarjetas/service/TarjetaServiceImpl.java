@@ -40,4 +40,10 @@ public class TarjetaServiceImpl implements TarjetaService {
 		return repository.actualizarTarjeta(index, tarjeta);
 	}
 
+	@Override
+	public void eliminarTodos() {
+		repository.eliminarTodos();
+		
+	}
+
 }

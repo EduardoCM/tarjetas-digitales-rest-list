@@ -57,7 +57,13 @@ public class TarjetaRepositoryImpl implements TarjetaRepository {
 	@Override
 	public Tarjeta actualizarTarjeta(int index, Tarjeta tarjeta) {
 		LOG.info("Eliminar tarjeta {}", tarjeta);
+		Tarjeta resultado = tarjetasDigitales.stream().filter(td -> td.getNumeroTarjeta().equals(index)).findFirst().get();
 		return tarjetasDigitales.set(index, tarjeta);
+	}
+
+	@Override
+	public void eliminarTodos() {
+		tarjetasDigitales.clear();
 	}
 
 }
