@@ -1,4 +1,4 @@
-package com.certificatic.tarjetas.model;
+package com.codigorupestre.tarjetas.model;
 
 import java.io.Serializable;
 

@@ -1,12 +1,12 @@
-package com.certificatic.tarjetas.service;
+package com.codigorupestre.tarjetas.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.certificatic.tarjetas.model.Tarjeta;
-import com.certificatic.tarjetas.repository.TarjetaRepository;
+import com.codigorupestre.tarjetas.model.Tarjeta;
+import com.codigorupestre.tarjetas.repository.TarjetaRepository;
 
 
 @Service

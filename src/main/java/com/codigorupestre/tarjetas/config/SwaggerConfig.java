@@ -13,7 +13,7 @@
 * strictly prohibited except by express written agreement with Citigroup.
 */
 
-package com.certificatic.tarjetas.config;
+package com.codigorupestre.tarjetas.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -40,7 +40,7 @@ public class SwaggerConfig {
   @Bean
   public Docket productApi() {
     return new Docket(DocumentationType.SWAGGER_2).useDefaultResponseMessages(false).select()
-            .apis(RequestHandlerSelectors.basePackage("com.certificatic.tarjetas.api"))
+            .apis(RequestHandlerSelectors.basePackage("com.codigorupestre.tarjetas.api"))
             .build().apiInfo(apiInfo());
   }
 
@@ -48,12 +48,12 @@ public class SwaggerConfig {
    * Builder of the ApiInfo.
    */
   private ApiInfo apiInfo() {
-    return new ApiInfoBuilder().title("Tarjetas Digitales API")
+    return new ApiInfoBuilder().title("Tarjetas Digitales SPACE-MONEY")
             .description("API para administracion de tarjetas digitales")
         .version("1.0")
         .contact(new Contact("Eduardo Castillo Mendoza",
-                "www.certificatic.org",
-                "ecastillo@certificatic.org")).build();
+                "www.codigorupestre.org",
+                "ecastillo@codigorupestre.org")).build();
   }
 
 }

@@ -1,4 +1,4 @@
-package com.certificatic.tarjetas;
+package com.codigorupestre.tarjetas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

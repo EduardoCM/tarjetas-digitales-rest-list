@@ -1,4 +1,4 @@
-package com.certificatic.tarjetas.api;
+package com.codigorupestre.tarjetas.api;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.certificatic.tarjetas.model.Tarjeta;
-import com.certificatic.tarjetas.service.TarjetaService;
+import com.codigorupestre.tarjetas.model.Tarjeta;
+import com.codigorupestre.tarjetas.service.TarjetaService;
 
 
 @CrossOrigin(origins = {"*"})

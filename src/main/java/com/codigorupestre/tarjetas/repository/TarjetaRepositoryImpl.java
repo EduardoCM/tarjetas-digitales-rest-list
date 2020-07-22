@@ -1,4 +1,4 @@
-package com.certificatic.tarjetas.repository;
+package com.codigorupestre.tarjetas.repository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
-import com.certificatic.tarjetas.model.Tarjeta;
+import com.codigorupestre.tarjetas.model.Tarjeta;
 
 @Repository
 public class TarjetaRepositoryImpl implements TarjetaRepository {
@@ -20,9 +20,9 @@ public class TarjetaRepositoryImpl implements TarjetaRepository {
 		Tarjeta tarjeta = new Tarjeta();
 		tarjeta.setId(1);
 		tarjeta.setNombreTitular("Eduardo Castillo Mendoza");
-		tarjeta.setNombreEntidad("Banco Azteca");
+		tarjeta.setNombreEntidad("Space Money");
 		tarjeta.setNumeroTarjeta("5645-2345-2367-3242");
-		tarjeta.setMarca("VISA");
+		tarjeta.setMarca("SPACE-VISA");
 		tarjeta.setFechaCaudicidad("20/26");
 		tarjeta.setCvv("234");
 		tarjetasDigitales.add(tarjeta);
